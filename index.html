@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login_page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="flex">
+      <!-- hero image section start from here  -->
+      <div class="hero-section flex">
+        <img src="./images/hero_img.png" alt="hero_image" />
+      </div>
+      <!-- form section starts form here  -->
+      <div class="form-section">
+        <div class="form">
+
+        <div class="flex head-logo space">
+          <img src="./images/Vector.png" alt="logo" />
+          <p class="black aladin-regular">Leaf</p>
+        </div>
+        <img class="hero" src="./images/hero_img.png" alt="hero_image" />
+
+        <p class="heading">Create Account</p>
+        <form action="">
+          <div class="input-section">
+            <label for="name">Full Name</label>
+            <div class="input-feild">
+              <img src="./images/user.png" alt="" />
+              <input type="text" id="name" placeholder="Enter Full Name" 
+              required
+              />
+            </div>
+          </div>
+          <div class="input-section">
+            <label for="email">Email</label>
+            <div class="input-feild">
+              <img src="./images/mail-02.png" alt="" />
+              <input type="email" id="email" placeholder="Enter Your Email"
+              required
+              />
+            </div>
+          </div>
+          <div class="input-section">
+            <label for="password">Password</label>
+            <div class="input-feild">
+              <img src="./images/lock.png" alt="" />
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Your Password"
+                required
+              />
+            </div>
+        </div>
+        <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+
+        <p class="para space">-OR-</p>
+
+        <div class="logos-section">
+          <img class="logo" src="./images/google_logo.png" alt="google_logo" />
+          <img
+            class="logo"
+            src="./images/facebook_logo.png"
+            alt="facebook_logo"
+          />
+          <img class="logo " src="./images/apple_logo.png" alt="apple_logo" />
+        </div>
+
+        <p class="account space">
+          Already have an account ?<span><a href="#">Login</a></span>
+        </p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
